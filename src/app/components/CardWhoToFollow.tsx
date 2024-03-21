@@ -1,10 +1,10 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { UserPlus } from "lucide-react";
 import React from "react";
 
 const CardWhoToFollow: React.FC = () => {
   return (
-    <div className='bg-violet-200 p-4 rounded-lg ml-4'>
+    <div className="bg-violet-200 p-4 rounded-lg ml-4">
       <h2 className="font-bold">Who To Follow</h2>
       {/* CARD USER */}
       <div className="my-2 flex items-center justify-between rounded-md border border-gray-400 p-2">
@@ -28,7 +28,7 @@ const CardWhoToFollow: React.FC = () => {
             <AvatarFallback>CN</AvatarFallback>
           </Avatar>
 
-          <p>Firza</p>
+          <p>Siti</p>
         </div>
 
         <UserPlus />
@@ -42,7 +42,7 @@ const CardWhoToFollow: React.FC = () => {
             <AvatarFallback>CN</AvatarFallback>
           </Avatar>
 
-          <p>Firza</p>
+          <p>Budi</p>
         </div>
 
         <UserPlus />
