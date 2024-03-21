@@ -1,10 +1,10 @@
-import { Avatar, AvatarImage, AvatarFallback } from "@radix-ui/react-avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { UserPlus } from "lucide-react";
 import React from "react";
 
 const CardWhoToFollow: React.FC = () => {
   return (
-    <div className='"'>
+    <div className='bg-violet-200 p-4 rounded-lg ml-4'>
       <h2 className="font-bold">Who To Follow</h2>
       {/* CARD USER */}
       <div className="my-2 flex items-center justify-between rounded-md border border-gray-400 p-2">

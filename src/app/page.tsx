@@ -33,7 +33,7 @@ export default function Home() {
           {/* END TWEET LIST */}
         </div>
         <div>
-          <CardWhoToFollow />{" "}
+          <CardWhoToFollow />
         </div>
       </section>
     </main>
